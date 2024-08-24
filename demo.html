@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Content Sections</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <section class="p-8">
+        <div id="content-area" class="grid grid-cols-1 gap-8">
+            <!-- Art Content -->
+            <div id="art-content" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="static/art.jpg" alt="Art 1" class="w-full h-64 object-cover rounded-md" />
+                    <h3 class="mt-4 text-2xl font-bold text-gray-800">Art Title 1</h3>
+                    <p class="mt-2 text-gray-600">Description of the artwork.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="static/art.jpg" alt="Art 2" class="w-full h-64 object-cover rounded-md" />
+                    <h3 class="mt-4 text-2xl font-bold text-gray-800">Art Title 2</h3>
+                    <p class="mt-2 text-gray-600">Description of the artwork.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="static/art.jpg" alt="Art 3" class="w-full h-64 object-cover rounded-md" />
+                    <h3 class="mt-4 text-2xl font-bold text-gray-800">Art Title 3</h3>
+                    <p class="mt-2 text-gray-600">Description of the artwork.</p>
+                </div>
+                <!-- Add more art items as needed -->
+            </div>
+
+            <!-- Literature Content -->
+            <div id="literature-content" class="hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800">Literature Title 1</h3>
+                    <p class="mt-4 text-gray-600">Excerpt or short description of the literature piece.</p>
+                    <a href="#" class="mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+                <!-- Add more literature items as needed -->
+            </div>
+
+            <!-- Experiences Content -->
+            <div id="experience-content" class="hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800">Experience Title 1</h3>
+                    <p class="mt-4 text-gray-600">Summary of the experience shared by a community member.</p>
+                    <a href="#" class="mt-4 text-blue-600 hover:underline">Read More</a>
+                </div>
+                <!-- Add more experience items as needed -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>

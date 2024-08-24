@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+  
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+
+<!-- component -->
+<nav
+  class="bg-white border border-gray-200 dark:border-gray-700 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 shadow fixed top-0 left-0 w-full z-50"
+>
+  <div
+    class="container flex flex-wrap justify-between items-center mx-auto"
+  >
+    <a href="index.html" class="flex items-center">
+      <span
+        class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+      >
+        Active Social Service And <br />
+        Literary Unit Nepal (ASSLUN)
+      </span>
+    </a>
+
+    <div class="flex items-center">
+      <button
+        id="menu-toggle"
+        type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+      >
+        <span class="sr-only">Open main menu</span>
+        <!-- Hamburger icon -->
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <div class="w-full md:block md:w-auto hidden" id="mobile-menu">
+      <ul
+        class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+      >
+        <li>
+          <a
+            href="index.html"
+            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+            aria-current="page"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="index.html#about"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="programs.html"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          >
+            Programs
+          </a>
+        </li>
+        <li>
+          <a
+            href="platform.html"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          >
+            Platform
+          </a>
+        </li>
+        <li>
+          <a
+            href="index.html#contact"
+            class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+          >
+            Contact ASSLUN
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Header -->
+    <header class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">ASSLUN Programs</h1>
+            <p class="text-xl">Active Social Service and Literary Unit Nepal</p>
+        </div>
+    </header>
+
+    <!-- Programs Section -->
+    <section class="container mx-auto py-8">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-semibold text-gray-800">Our Programs</h2>
+            <p class="text-gray-600">Explore the various programs that ASSLUN offers.</p>
+        </div>
+
+        <!-- Program Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Donation Programs -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4 text-green-600">Donation Programs</h3>
+                <p class="text-gray-700">Our donation programs aim to support the underprivileged communities by providing essential resources.</p>
+            </div>
+
+            <!-- Health Camp -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4 text-green-600">Health Camps</h3>
+                <p class="text-gray-700">We organize health camps in rural areas to provide medical assistance to those in need.</p>
+            </div>
+
+            <!-- Literature Competition -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4 text-green-600">Literature Competitions</h3>
+                <p class="text-gray-700">Encouraging young talents through literary competitions to promote literature in Nepal.</p>
+            </div>
+
+            <!-- Career Counseling -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4 text-green-600">Career Counseling</h3>
+                <p class="text-gray-700">Guiding students and professionals in choosing the right career paths through expert counseling sessions.</p>
+            </div>
+
+            <!-- Add more programs as needed -->
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto text-center mb-8">
+            <h2 class="text-3xl font-semibold text-gray-800">Gallery</h2>
+            <p class="text-gray-600">Moments captured during our programs.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Gallery Item -->
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="your-image-url-1.jpg" alt="Gallery Image 1" class="w-full h-48 object-cover rounded-md">
+                <p class="mt-2 text-gray-700">Caption for Image 1</p>
+            </div>
+
+            <!-- Gallery Item -->
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="your-image-url-2.jpg" alt="Gallery Image 2" class="w-full h-48 object-cover rounded-md">
+                <p class="mt-2 text-gray-700">Caption for Image 2</p>
+            </div>
+
+            <!-- Gallery Item -->
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="your-image-url-3.jpg" alt="Gallery Image 3" class="w-full h-48 object-cover rounded-md">
+                <p class="mt-2 text-gray-700">Caption for Image 3</p>
+            </div>
+
+            <!-- Add more gallery items as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 ASSLUN - All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        menuToggle.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+      });
+    </script>
+    
+</body>
+</html>
